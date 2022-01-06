@@ -7,7 +7,7 @@ body{
 .flex{
     display: flex;
 }
-.first-anchor{
+.anchor{
     background-color: rgb(255, 72, 0);
     text-decoration: none;
     color: white;
@@ -43,13 +43,51 @@ body{
     color: orange;
 }
 .mid-div-main{
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 125px;
+    margin-right: 125px;
 }
 .mid-div{
     margin: 15px;
-    border: 5px solid black;
+    padding: 25PX;
+    border-radius: 25px;
 }
 .mid-div img{
     width: 45%;
 }
+.mid-div-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Fira Sans', sans-serif;
+}
+#mission{
+    background-color: rgba(17, 253, 241, 0.151);
+}
+#vission{
+    background-color: #f578423f;
+}
+#goals{
+    background-color: rgba(255, 255, 0, 0.178);
+}
+.mid-div-1{
+    width: 40%;
+    padding-left: 130px;
+    padding-right: 0;
+    margin-right: 0;
+
+}
+.mid-div-1 img{
+    width: 85%;
+}
+.mid-div-2{
+    width: 60%;
+    padding-left: 0;
+    margin-left: 0;
+}
+.third-section{
+    margin-top: 90px;
+}
+.mid-div-title-1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Fira Sans', sans-serif;
