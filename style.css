@@ -1,6 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
+
 .first-section{
     margin: 0;
 }
@@ -31,6 +34,10 @@ body{
     font-family: 'Unna', serif;
     font-size: 70px;
     margin-bottom: 0;
+    padding-left: 8px;
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(243, 139, 4), rgb(231, 128, 10));
+    border-image-slice: 1;
 }
 .top-div2{
     width: 50%;
@@ -84,10 +91,85 @@ body{
     padding-left: 0;
     margin-left: 0;
 }
+.third-section-2{
+    margin-top: 90px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-y: 100%;
+    background-position-x: 100%;
+
+}
 .third-section{
     margin-top: 90px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-y: 15%;
+    background-position-x: 20px;
 }
 .mid-div-title-1{
     font-size: 40px;
     font-weight: 900;
     font-family: 'Fira Sans', sans-serif;
+}
+.mid-div-3{
+    width: 50%;
+    padding-left: 150px;
+    margin-left: 20px;
+}
+.mid-div-4{
+    width: 50%;
+    padding-left: 130px;
+    padding-right: 0;
+    margin-right: 0;
+
+}
+.mid-div-4 img{
+    width: 75%;
+}
+.mid-div-5{
+    width: 40%;
+    padding-left: 160px;
+    padding-right: 0;
+    margin-right: 0;
+}
+.mid-div-5 img{
+    width: 60%;
+}
+.mid-div-6{
+    width: 60%;
+    padding-left: 0;
+    padding-top: 70px;
+    margin-left: 0;
+}
+.last-section{
+    background-color: black;
+    padding: 0px;
+    
+}
+.last-header{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+
+}
+.last-p{
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.orange{
+    color: rgb(223, 102, 4);
+}
+.third-section-3{
+    margin-top: 90px;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-y: 75%;
+    background-position-x: 20px;
+}
+
